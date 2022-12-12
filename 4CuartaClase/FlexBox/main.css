@@ -1,0 +1,62 @@
+.bodyy{
+    display: flex;
+    justify-content: center;
+}
+#container-main{
+    display: grid;
+    grid-template-areas: 
+    "uno uno uno uno"
+    "dos tres tres cuatro"
+    "dos tres tres cuatro"
+    "dos tres tres cuatro"
+    "cinco cinco cinco cinco";
+    background: red;
+    width: 80%;
+    height: 500px;
+}
+.container{
+    width: auto;
+    height: auto;
+    background: green;
+    border: 2px solid black;
+    margin-top: 10px;
+
+}
+p{
+    text-align: center;
+}
+
+.uno{
+    grid-area: uno;
+    background-color: aqua;
+}
+.dos{
+    grid-area: dos;
+    background-color: blue;
+    
+}
+.tres{
+    grid-area: tres;
+}
+.cuatro{
+    grid-area: cuatro;
+}
+.cinco{
+   grid-area: cinco;
+    background-color: blueviolet;
+ }
+/*
+
+
+
+
+
+
+
+*/
+ /*grid-template-areas: 
+    "uno uno dos "
+    "uno uno dos "
+    "tres cuatro cinco ";*/
+    
+   /* */
